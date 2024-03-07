@@ -1,9 +1,9 @@
 
-import './Hero.css'
+import './Body.css'
 
-function Hero(){
+function Body(){
 return(
-    <div className="hero">
+    <div className="bodysection">
         <div className="content">
         <h1>Let us find your</h1>
                 <h1 id='lastChild'>Forever Food.</h1>
@@ -17,4 +17,4 @@ return(
 )
 }
 
-export default Hero;
+export default Body;
