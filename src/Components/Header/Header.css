@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: rgb(17,24,39);
+    color: white;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+li:first-child a{
+    color: rgb(47,130,246);
+}
+ul li a:hover{
+    color: rgb(47,130,246);
+}
+nav button{
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 0.7rem 2rem;
+    background-color: rgb(37,99,235);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+nav button:hover{
+    background-color: rgb(35, 84, 190);
+}
+
+@media screen and (max-width: 775px) {
+    ul{
+        display: none;
+    }
+}
