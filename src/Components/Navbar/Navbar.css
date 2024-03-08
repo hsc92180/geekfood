@@ -32,7 +32,7 @@ ul li a{
     color: white;
     font-weight: 600;
 }
-li:first-child a{
+ul li a.active{
     color: rgb(47,130,246);
 }
 ul li a:hover{
