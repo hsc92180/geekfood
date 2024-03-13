@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import HomeScreen from './Screen/HomeScreen';
 import QuoteList from './Screen/QuoteScreen';
+import RestaurantsScreen from './Screen/RestaurantsScreen';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
           <Routes>
             <Route path='/' element={<HomeScreen />} />
             <Route path='/quotes' element={<QuoteList />} />
+            <Route path='/restaurants' element={<RestaurantsScreen />} />
           </Routes>
           <Footer />
         </div>
